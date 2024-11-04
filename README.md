@@ -46,30 +46,6 @@ The dataset consists of 244 observations, with both numerical and categorical va
    - Discuss the impact of different variables and transformations on model performance.
    - Provide visualizations and summaries to demonstrate findings.
 
-## Project Files
-- **main.tex**: The LaTeX source code for the report, containing a detailed description of the analysis, methods, and results.
-- **images/**: Folder containing the plots and graphs generated during the analysis.
-- **R Scripts**: R scripts used for data preprocessing, EDA, modeling, and evaluation.
-- **README.md**: This file, providing an overview of the project and usage information.
-
-## Requirements
-- **R**: The project uses R for data analysis and modeling. The following libraries are required:
-  - `GGally`
-  - `MASS`
-  - `ggplot2`
-
-- **LaTeX**: To generate the final report in PDF format.
-
-## Running the Project
-1. Clone the repository to your local machine:
-   ```sh
-   git clone https://github.com/your-username/exam-project-statistical-models.git
-   ```
-
-2. Open the R scripts to preprocess the data, conduct EDA, and train the models. Ensure all required R packages are installed.
-
-3. Compile the **main.tex** file using your preferred LaTeX editor to generate the PDF report.
-
 ## Results Summary
 The analysis concluded that the logarithmic normalization provided the most effective model for predicting tips. The final model showed improved assumptions of normality, homoscedasticity, and linearity, resulting in a more accurate representation of tipping behavior.
 
